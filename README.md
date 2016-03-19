@@ -1,6 +1,6 @@
 # twitchsaver
 
-[Check it out!](https://ameswarb.github.io/twitchsaver/?promo=1)
+[Check it out!](http://ameswarb.github.io/twitchsaver/?promo=1)
 
 Webpage that serves up a 3 x 2 grid of cathode tube TVs showing twitch.tv's featured streams. Designed to work with screensavers that load a webpage, such as [webviewscreensaver](https://github.com/liquidx/webviewscreensaver).
 
