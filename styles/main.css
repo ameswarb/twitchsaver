@@ -1,0 +1,196 @@
+html,
+body,
+{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #140b09 url('../images/wood.jpg') top center no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+.video {
+  height: 50%;
+  width: 33.333%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.video .overlay {
+  height: 100%;
+  width: 100%;
+}
+
+.video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.top {
+  top: 0px;
+}
+
+.bottom {
+  top: 50%;
+}
+
+.left {
+  left: 0px;
+}
+
+.middle {
+  left: 33.3333%;
+}
+
+.right {
+  left: 66.667%;
+}
+
+.tube .video {
+  border: 3px solid #888;
+  border-radius: 35% / 20%;
+  height: 46%;
+  width: 29.333%;
+
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+}
+
+.tube .video iframe {
+  height: 100%;
+  margin-left: -39%;
+  width: 178%;
+}
+
+.tube .top {
+  top: 1%;
+}
+
+.tube .bottom {
+  top: 51%;
+}
+
+.tube .left {
+  left: 2%;
+}
+
+.tube .middle {
+  left: 35.333%;
+}
+
+.tube .right {
+  left: 68.667%;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.53748;
+  }
+  5% {
+    opacity: 0.87068;
+  }
+  10% {
+    opacity: 0.32611;
+  }
+  15% {
+    opacity: 0.71296;
+  }
+  20% {
+    opacity: 0.91126;
+  }
+  25% {
+    opacity: 0.15224;
+  }
+  30% {
+    opacity: 0.99829;
+  }
+  35% {
+    opacity: 0.93748;
+  }
+  40% {
+    opacity: 0.0878;
+  }
+  45% {
+    opacity: 0.18893;
+  }
+  50% {
+    opacity: 0.57245;
+  }
+  55% {
+    opacity: 0.50087;
+  }
+  60% {
+    opacity: 0.36627;
+  }
+  65% {
+    opacity: 0.95554;
+  }
+  70% {
+    opacity: 0.92584;
+  }
+  75% {
+    opacity: 0.19372;
+  }
+  80% {
+    opacity: 0.86063;
+  }
+  85% {
+    opacity: 0.15599;
+  }
+  90% {
+    opacity: 0.88902;
+  }
+  95% {
+    opacity: 0.89322;
+  }
+  100% {
+    opacity: 0.92687;
+  }
+}
+
+.tube .video .overlay {
+  border-radius: 35% / 20%;
+  height: 140%;
+  margin-left: -20%;
+  margin-top: -20%;
+  overflow: hidden;
+  width: 140%;
+}
+
+.tube .video .overlay::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+  border-radius: 35% / 20%;
+}
+
+.tube .video .overlay::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  border-radius: 35% / 20%;
+}
