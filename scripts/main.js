@@ -47,6 +47,10 @@ $(document).ready(function () {
     $('body').removeClass('tube');
   }
 
+  if (!getParams.promo) {
+    $('.promo').hide();
+  }
+
   $.get(featuredRoute, function (data) {
     var myChannels = pluckedChNames(data.featured);
 

@@ -10,7 +10,9 @@ Just clone this repo into any folder being served by a web server.
 
 ## Usage
 
-Add `?theme=modern` to the end of the URL to remove the cathode tube theme and show 100% of the twitch streams.
+* Add `?theme=modern` to the end of the URL to remove the cathode tube theme and show 100% of the twitch streams.
+* Adding `?promo=1` when sharing the project is appreciated
+* Protip: if you want to share the modern version, add `?theme=modern&promo=1` to the URL
 
 ## Contributing
 

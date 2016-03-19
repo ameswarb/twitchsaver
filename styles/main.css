@@ -11,6 +11,67 @@ body {
   margin: 0;
 }
 
+.fixed-banner {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  height: 80px;
+  left: 0;
+  position: fixed;
+  text-transform: lowercase;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.fixed-banner {
+  color: #aaa;
+  font-size: 14px;
+  border-bottom: 1px solid #555
+}
+
+.fixed-banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fixed-banner a:hover {
+  color: #6CDFEA;
+}
+
+.fixed-banner  i {
+  position: relative;
+  top: 6px;
+}
+
+.fixed-banner ul {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin: 0 140px 0 0;
+  padding: 0;
+}
+
+.fixed-banner ul li {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 10px;
+}
+
+.divider {
+  border-right: 1px solid #666;
+}
+
+h1 {
+  display: inline-block;
+  float: left;
+  font-family: 'Lobster', sans-serif;
+  line-height: 80px;
+  margin: 0 40px;
+  text-transform: lowercase;
+}
+
 iframe {
   border: 0;
 }
