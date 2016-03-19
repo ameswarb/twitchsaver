@@ -6,7 +6,7 @@ Webpage that serves up a 3 x 2 grid of cathode tube TVs showing twitch.tv's feat
 
 ## Installation
 
-Just clone this repo into any location that serves files over HTTP.
+Just clone this repo into any folder being served by a web server.
 
 ## Usage
 
