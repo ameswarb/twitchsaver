@@ -6,7 +6,7 @@ body,
 }
 
 body {
-  background: #140b09 url('../images/wood.jpg') top center no-repeat;
+  background: #140b09 url('../images/wood.jpg') center center no-repeat fixed;
   background-size: cover;
   margin: 0;
 }
