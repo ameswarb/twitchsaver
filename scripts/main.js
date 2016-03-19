@@ -43,6 +43,11 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
 });
 
 $(document).ready(function () {
+
+  if (window.location.href.indexOf('https://') > -1) {
+    $(location).attr('href', 'http' + window.location.href.substring(5));
+  }
+
   if (getParams.theme) {
     $('body').removeClass('tube');
   }
