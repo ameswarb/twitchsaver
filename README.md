@@ -8,6 +8,8 @@ Webpage that serves up a 3 x 2 grid of cathode tube TVs showing twitch.tv's feat
 
 Just clone this repo into any folder being served by a web server.
 
+_*Note:* and change a bunch of references to ameswarb.github.io/twitchsaver -- sorry, I'll fix this soon_
+
 ## Usage
 
 * Add `?theme=modern` to the end of the URL to remove the cathode tube theme and show 100% of the twitch streams.
