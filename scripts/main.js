@@ -59,8 +59,4 @@ $(document).ready(function () {
       $('body').append(embedTemplate(myChannels[i], i));
     }
   });
-
-  if (window.location.href.indexOf('https://') > -1) {
-    $(location).attr('href', 'http' + window.location.href.substring(5));
-  }
 });
