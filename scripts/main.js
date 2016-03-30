@@ -20,7 +20,7 @@ var vertPos = function (i) {
 var horzPos = ['left', 'middle', 'right'];
 
 var streamRoute = [
-  'http://player.twitch.tv/?channel=',
+  'https://player.twitch.tv/?channel=',
   '&amp;html5&amp;volume=0&amp;muted=true',
 ];
 
