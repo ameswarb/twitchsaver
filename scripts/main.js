@@ -20,7 +20,7 @@ var vertPos = function (i) {
 var horzPos = ['left', 'middle', 'right'];
 
 var streamRoute = [
-  'http://player.twitch.tv/?channel=',
+  'https://player.twitch.tv/?channel=',
   '&amp;html5&amp;volume=0&amp;muted=true',
 ];
 
@@ -59,8 +59,4 @@ $(document).ready(function () {
       $('body').append(embedTemplate(myChannels[i], i));
     }
   });
-
-  if (window.location.href.indexOf('https://') > -1) {
-    $(location).attr('href', 'http' + window.location.href.substring(5));
-  }
 });
